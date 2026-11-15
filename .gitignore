@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Local credentials & OAuth tokens
+config.json
+*.local.json
+
+# Local runtime storage, Episodic Memory & run logs
+storage/
+runs/
+memory/
+
+# Logs & OS files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db

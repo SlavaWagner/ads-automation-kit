@@ -1,0 +1,12 @@
+{
+  "customerId": "",
+  "developerToken": "",
+  "clientId": "",
+  "clientSecret": "",
+  "refreshToken": "",
+  "googleAdsVersion": "v24",
+  "loginCustomerId": "",
+  "accessToken": "",
+  "tokenExpiry": 0,
+  "geminiApiKey": "antigravity"
+}
