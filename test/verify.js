@@ -81,7 +81,7 @@ test('1. Guard allows execution with --inside-agy or AGY_SESSION=1 and blocks ba
   // Spawn bare process without Antigravity env
   const cleanEnv = { ...process.env };
   for (const k of Object.keys(cleanEnv)) {
-    if (k.startsWith('ANTIGRAVITY_') || k.startsWith('AGY_') || k.startsWith('JETSKI_') || k === 'AGY') {
+    if (k.startsWith('ANTIGRAVITY_') || k.startsWith('AGY_') || k === 'AGY') {
       delete cleanEnv[k];
     }
   }

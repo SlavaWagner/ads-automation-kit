@@ -26,7 +26,7 @@
 
 ## Phase 1 — Antigravity CLI Guard & OAuth2 Setup
 
-`ads-automation-kit` verifies an active Google Antigravity session (`ANTIGRAVITY_*`, `AGY_*`, `JETSKI_*`) at startup and reuses the OAuth2 loopback mechanism and `config.json` format from [SlavaWagner/ai-ads-pipeline](https://github.com/SlavaWagner/ai-ads-pipeline):
+`ads-automation-kit` verifies an active Google Antigravity session (`ANTIGRAVITY_*`, `AGY_*`) at startup and reuses the OAuth2 loopback mechanism and `config.json` format from [SlavaWagner/ai-ads-pipeline](https://github.com/SlavaWagner/ai-ads-pipeline):
 
 - **Loopback OAuth2 consent server** on `http://localhost:8085` (scope: `https://www.googleapis.com/auth/adwords`, offline refresh token).
 - **Automatic token refresh** with a 300-second pre-expiry buffer and single automatic HTTP `401` retry recovery (`src/googleAdsClient.js`).
